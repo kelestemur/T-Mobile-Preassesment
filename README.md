@@ -7,4 +7,6 @@ This repository contains all code related to the bootcamp, Pre-assesment.
 # How Does It Work?
 1. The deployment URL listed in the setup returns a secret message based on the URL parameter.
 1. If the parameter is a prime integer, the URL shows the secret message, otherwise it responds with an 'access request forbidden' message.
+1. Example-1: 'https://rau06ga1d6.execute-api.eu-west-2.amazonaws.com/Prod/unlock-the-secret/857 will display the message
+1. Example-2: 'https://rau06ga1d6.execute-api.eu-west-2.amazonaws.com/Prod/unlock-the-secret/6 will give an error.
 
